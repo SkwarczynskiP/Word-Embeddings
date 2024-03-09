@@ -9,15 +9,21 @@ This word embeddings project:
 
 # Files:
  The files in this repository include:
-- ADD IN FILES
+- "hw-2.py" the python script
+- "cbow.model" the trained CBOW model
+- "skipGram.model" the trained Skip-Gram model
 
 # Files Not Included:
-The files in this repository include: The files that are created by running this code, but are not included in this repositiorty due to their size include:
-- ADD IN FILES
+The files in this repository include: The files that are created by running this code, but are not included in this repository due to their size include:
+- "cbow.model.syn1neg.npy" file generated when creating the CBOW model
+- "cbow.model.mv.vectors.npy" file generated when creating the CBOW model
+- "skipGram.model.syn1neg.npy" file generated when creating the Skip-Gram model
+- "skipGram.model.mv.vectors.npy" file generated when creating the Skip-Gram model
+- "normalizedText.json" file containing the normalized text from the wikipedia dataset
 
 # How to Run:
-1. Download the files
+1. Download the files (Downloading the two trained models is optional)
 2. Open the terminal and change directories to the location of the downloaded files
 3. Type the command "py hw-2.py" to run
 
-WARNING: The first time you run this code, it will take a long time to load and then train the models
+NOTE: The first time you run this code, it will take a long time to load and then train the models
