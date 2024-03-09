@@ -15,11 +15,11 @@ This word embeddings project:
 
 # Files Not Included:
 The files in this repository include: The files that are created by running this code, but are not included in this repository due to their size include:
+- "normalizedText.json" file containing the normalized text from the wikipedia dataset (used to train the CBOW and Skip-Gram models)
 - "cbow.model.syn1neg.npy" file generated when creating the CBOW model
 - "cbow.model.mv.vectors.npy" file generated when creating the CBOW model
 - "skipGram.model.syn1neg.npy" file generated when creating the Skip-Gram model
 - "skipGram.model.mv.vectors.npy" file generated when creating the Skip-Gram model
-- "normalizedText.json" file containing the normalized text from the wikipedia dataset
 
 # How to Run:
 1. Download the files (Downloading the two trained models is optional)
